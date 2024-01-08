@@ -1,6 +1,6 @@
 # @hungytech/capacitor-custom-navigation-bar
 
-Plugin desarrollado para cambiar el color del navigationbar con capacitor en ionic angular {}
+Plugin desarrollado para cambiar el color del navigationbar con capacitor en ionic angular
 
 ## Install
 

@@ -7,4 +7,10 @@ export class navigationBarWeb extends WebPlugin implements navigationBarPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async setNavigationBarColor(options: { color: string }): Promise<void> {
+    // Lógica para cambiar el color de la barra de navegación en la plataforma web.
+    document.body.style.backgroundColor = options.color;
+  }
+
 }
